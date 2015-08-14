@@ -1,4 +1,4 @@
-FROM andreptb/oracle-java:7
+FROM java:7
 MAINTAINER Maarten Balliauw <maarten.balliauw@jetbrains.com>
 
 RUN wget http://download-cf.jetbrains.com/charisma/youtrack-6.5.16367.jar -O youtrack.jar
