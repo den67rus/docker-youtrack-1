@@ -1,4 +1,4 @@
-FROM java:7
+FROM java:8
 MAINTAINER Maarten Balliauw <maarten.balliauw@jetbrains.com>
 
 RUN wget https://download.jetbrains.com/charisma/youtrack-2017.2.34480.jar
