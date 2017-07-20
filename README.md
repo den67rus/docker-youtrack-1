@@ -9,15 +9,15 @@ This repository contains a Docker image of JetBrains [YouTrack](http://www.jetbr
 
 First, pull the Docker image using the following command:
 
-	docker pull den67rus/docker-youtrack
+	docker pull den67rus/youtrack
 
 Next, create a container.
 
-	docker run -d den67rus/docker-youtrack
+	docker run -d den67rus/youtrack
 
 YouTrack starts and listens on port 80 in the container. To map it to the host's port 80, use the following command to create the container instead:
 
-	docker run --name="youtrack" -p 80:80 -d den67rus/docker-youtrack
+	docker run --name="youtrack" -p 80:80 -d den67rus/youtrack
 
 ### Additional settings
 
